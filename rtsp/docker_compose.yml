@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  rtsp-server:
+    image: bluenviron/mediamtx:latest
+    container_name: kreda-rtsp-server
+    restart: unless-stopped
+    ports:
+      - "8554:8554" # tcp/udp
+      - "8888:8888" # hls
+      - "8889:8889" # webrtc
