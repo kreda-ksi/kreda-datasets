@@ -18,4 +18,4 @@ fi
 echo "Broadcasting '$VIDEO_FILE' to $RTSP_URL"
 echo "Ctrl+C to stop the stream."
 
-ffmpeg -re -stream_loop -1 -i "$VIDEO_FILE" -c copy -f rtsp "$RTSP_URL"
+ffmpeg -loglevel error -re -stream_loop -1 -i "$VIDEO_FILE" -c copy -f rtsp "$RTSP_URL"
