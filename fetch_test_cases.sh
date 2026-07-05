@@ -23,5 +23,6 @@ yt-dlp -f "$SETTINGS" --download-sections "*00:05:00-00:05:45" -o "$CLIP_DIR/02.
 yt-dlp -f "$SETTINGS" --download-sections "*00:22:00-00:22:45" -o "$CLIP_DIR/03.mp4" "$VIDEO_URL"
 yt-dlp -f "$SETTINGS" --download-sections "*00:36:00-00:36:45" -o "$CLIP_DIR/04.mp4" "$VIDEO_URL"
 yt-dlp -f "$SETTINGS" --download-sections "*00:41:00-00:41:45" -o "$CLIP_DIR/05.mp4" "$VIDEO_URL"
+yt-dlp -f "$SETTINGS" --download-sections "*00:00:00-00:30:00" -o "$CLIP_DIR/06.mp4" "$VIDEO_URL"
 
 echo "All clips downloaded to '$CLIP_DIR/' directory."
