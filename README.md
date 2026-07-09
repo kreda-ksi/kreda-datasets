@@ -1,4 +1,4 @@
-# kreda-datasets
+# kreda-datasets ξ
 
 KREDA consists of three main parts:
 - **[kreda-core-vision](https://github.com/kreda-ksi/kreda-core-vision)** (C++/OpenCV) captures footage,
